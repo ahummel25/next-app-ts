@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"lib": [
+			"dom",
+			"esnext"
+		],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"outDir": "dist",
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "esnext",
+		"skipLibCheck": true,
+		"strict": false
+	},
+	"include": [
+		"./src/**/*",
+		"./__mocks__/**/*",
+		"./__tests__/**/*",
+		"react-app-env.d.ts"
+	],
+	"exclude": [
+		"build",
+		"next.config.js",
+		"node_modules/**",
+		"scripts"
+	]
+}
